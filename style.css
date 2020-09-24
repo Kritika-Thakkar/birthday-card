@@ -1,11 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Niconne&display=swap');
+.card-front {
+    /*color: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)*/
+    text-align: center;
+    width: 400px;
+    background-color: black;
+    height: 400px;
+    margin-left: 500px;
+    margin-top: 70px;
+    padding-top: 70px;
+    /*font-family: 'Cedarville Cursive', cursive; */
+    font-family: 'Niconne', cursive;
+    font-size: 25px;
+    border-style: solid;
+}
 h1 {
-    color: blue;
-    text-align: center;
-}
-p {
-    color: lightblue;
-    text-align: center;
-}
+    font-size: 72px;
+    background: -webkit-linear-gradient(#f12711, #f5af19);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 body {
-    background-color: black
+    background-color: beige;
 }
+
