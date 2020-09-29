@@ -1,13 +1,31 @@
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        /*try the columns thing */
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="card-front">
-            <h1>Happy</h1>
-            <h1>Birthday!</h1>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Homemade+Apple&display=swap');
+    </style>
+</head>
+
+<body>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <picture>
+                    <source srcset="temp1_small.jpg" media="(max-width: 600px)">
+                    <source srcset="temp1.jpg" media="(max-width: 1500px)">
+                    <img class="img" src="temp1.jpg" alt="template 1">
+                  </picture>
+            </div>
+            <div class="flip-card-back">
+                <h1>Happy</h1>
+                <h1>Birthday</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem atque commodi tempore. Molestias
+                    repellendus perspiciatis officia officiis alias, nobis debitis excepturi in maxime eaque inventore
+                    unde. Illum modi suscipit officia?</p>
+            </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
