@@ -18,7 +18,7 @@
     text-align: center;
     transition: transform 2s;
     transform-style: preserve-3d;
-    box-shadow: 6px 6px 6px 6px rgb(212, 207, 207);
+    box-shadow: 3px 3px 3px 3px rgb(212, 207, 207);
 }
 .flip-card:hover .flip-card-inner{
     transform: rotateY(180deg);
@@ -40,12 +40,30 @@
 }
 h1 {
     font-family: 'Homemade Apple', cursive;
+    font-weight: 700;
 }
 p {
     font-family: 'Courier Prime', monospace;
-    padding: 50px;
+    padding: 0px 50px 0px 50px;
     text-align: center;
+    font-weight: 500;
 }
 body {
-    background-color: rgb(226, 219, 219);
+    background-color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .img, .flip-card {
+        height: 400px;
+        width: 280px;
+    }
+    .flip-card {
+        margin-left: 45px;
+    }
+    h1 {
+        font-size: 21px;
+    }
+    p {
+        font-size: 15px;
+    }
 }
