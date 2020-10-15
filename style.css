@@ -52,7 +52,7 @@ body {
     background-color: black;
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 690px) {
     .img, .flip-card {
         height: 400px;
         width: 280px;
