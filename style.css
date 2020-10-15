@@ -9,7 +9,7 @@
     width: 400px;
     height: 553px;
     margin-top: 50px;
-    margin-left: 450px;
+    margin-left: 550px;
 }
 .flip-card-inner {
     position: relative;
@@ -52,18 +52,19 @@ body {
     background-color: black;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 730px) {
     .img, .flip-card {
         height: 400px;
         width: 280px;
     }
     .flip-card {
         margin-left: 45px;
+        margin-top: 60px;
     }
     h1 {
         font-size: 21px;
     }
     p {
-        font-size: 15px;
+        font-size: 13.5px;
     }
 }
